@@ -156,3 +156,17 @@ body {
   text-align: center;
   font-size: 13.2px;
 }
+
+.attribution {
+  font-size: 13px;
+  text-align: center;
+}
+.name {
+  color: #fff4e6;
+}
+
+@media screen and (min-width: 1440px) {
+  .container__card {
+    width: 350px;
+  }
+}
