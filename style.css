@@ -1,0 +1,158 @@
+:root {
+  /* Primary */
+  --Orange: hsl(25, 97%, 53%);
+  /* neutral */
+  --White: hsl(0, 0%, 100%);
+  --Light_Grey: hsl(217, 12%, 63%);
+  --Medium_Grey: hsl(216, 12%, 54%);
+  --Dark_Blue: hsl(213, 19%, 18%);
+  --Very_Dark_Blue: hsl(216, 12%, 8%);
+  /* font */
+  --Overpass: "Overpass", sans-serif;
+}
+
+body {
+  background-color: var(--Very_Dark_Blue);
+  font-family: var(--Overpass);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.container__card {
+  background: linear-gradient(170deg, #212931, #171e28);
+  border-radius: 20px;
+  height: 360px;
+  width: 340px;
+  padding: 20px;
+}
+
+.container__card-start {
+  background-color: #263038;
+  /* background-color: var(--Dark_Blue); */
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.container__card-start > img {
+  height: 13px;
+}
+
+.container__card-title {
+  color: var(--White);
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.container__card-description {
+  color: var(--Medium_Grey);
+  margin-top: 14px;
+  font-size: 15px;
+}
+
+.container__card-rate {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.container__card-rate > button {
+  border: none;
+  border-radius: 50%;
+  background-color: var(--Dark_Blue);
+  color: var(--Medium_Grey);
+  margin-right: 22px;
+  height: 42px;
+  width: 42px;
+  font-size: 14px;
+}
+
+.container__card-submit {
+  width: 100%;
+}
+
+.container__card-submit > button {
+  border-radius: 25px;
+  border: none;
+  background-color: var(--Orange);
+  color: var(--White);
+  margin-top: 30px;
+  height: 40px;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+.container__card-rate .rate-5 {
+  margin-right: 0;
+}
+
+.container__card-rate > button:hover {
+  background-color: var(--Medium_Grey);
+  color: var(--White);
+}
+
+.container__card-rate > button:focus {
+  background-color: var(--Orange);
+  color: var(--White);
+}
+
+.container__card-submit > button:hover {
+  background-color: var(--White);
+  color: var(--Orange);
+}
+
+/* Thank You card style */
+
+.lottie__animation > lottie-player {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 90px;
+  margin-top: 25px;
+}
+
+.container__card-rate--slect {
+  margin-top: 20px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.container__card-rate--slect > p {
+  background-color: var(--Dark_Blue);
+  color: var(--Orange);
+  border-radius: 15px;
+  text-align: center;
+  height: 26px;
+  width: 165px;
+  font-size: 13px;
+  padding: 7px;
+}
+
+.h1-thank {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 35px;
+}
+
+.p-thank {
+  text-align: center;
+  font-size: 13.2px;
+}

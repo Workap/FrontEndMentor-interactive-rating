@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main>
+      <div class="container__card">
+        <!-- <div class="lottie__animation">
+          <lottie-player
+            src="images/illustration-thank.json"
+            background="transparent"
+            speed=".5"
+            autoplay
+          ></lottie-player>
+        </div>
+        <div class="container__card-rate--slect">
+          <p>You selected 4 out of 5</p>
+        </div>
+        <div class="container__card-title h1-thank"><h1>Thank you!</h1></div>
+        <div class="container__card-description p-thank">
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div> -->
+        <div class="container__card-start">
+          <img src="images/icon-star.svg" alt="estrella" />
+        </div>
+        <div class="container__card-title">
+          <h1>How did we do?</h1>
+        </div>
+        <div class="container__card-description">
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div class="container__card-rate">
+          <button class="rate">1</button><button class="rate">2</button
+          ><button class="rate">3</button><button class="rate">4</button
+          ><button class="rate rate-5">5</button>
+        </div>
+        <div class="container__card-submit">
+          <button id="submit">Submit</button>
+        </div>
+      </div>
+    </main>
+    <!--
+
+   Rating state end 
+
+   Thank you state start 
+
+  You selected  Add rating here  out of 5
+
+  Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!
+
+  Thank you state end -->
+    <script src="script.js"></script>
+    <script
+      defer
+      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+    ></script>
+  </body>
+</html>
