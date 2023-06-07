@@ -175,7 +175,7 @@ body {
   }
 
   .container__card {
-    width: 385px;
+    width: 380px;
     height: 410px;
     padding: 30px;
   }
@@ -186,16 +186,17 @@ body {
   }
 
   .container__card-description {
-    font-size: 15px;
+    font-size: 14.6px;
+    line-height: 25px;
   }
 
   .container__card-rate > button {
-    width: 49px;
-    height: 49px;
-    margin-top: 5px;
+    width: 45px;
+    height: 45px;
+    /* margin-top: 5px; */
   }
   .container__card-submit > button {
     height: 45px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
 }
