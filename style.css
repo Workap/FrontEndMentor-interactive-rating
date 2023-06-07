@@ -165,27 +165,37 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+  .container__card-start {
+    width: 45px;
+    height: 45px;
+  }
+
+  .container__card-start > img {
+    height: 15px;
+  }
+
   .container__card {
-    width: 375px;
-    height: 390px;
+    width: 385px;
+    height: 410px;
     padding: 30px;
   }
 
   .container__card-title {
     margin-top: 30px;
+    font-size: 27px;
   }
 
   .container__card-description {
-    font-size: 14.6px;
+    font-size: 15px;
   }
 
   .container__card-rate > button {
-    width: 45px;
-    height: 45px;
+    width: 49px;
+    height: 49px;
     margin-top: 5px;
   }
   .container__card-submit > button {
-    height: 40px;
+    height: 45px;
     margin-top: 40px;
   }
 }
