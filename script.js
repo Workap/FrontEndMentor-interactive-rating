@@ -5,12 +5,14 @@ const rateNum = (e) => {
   if (rate.length > 1) {
     rate = "5";
   }
-  console.log(rate);
   return rate;
 };
 
 const thanksYouCard = () => {
   const container = document.querySelector(".container__card");
+  if (rate == undefined) {
+    rate = "5";
+  }
   container.innerHTML = `
   <div class="lottie__animation">
   <lottie-player
@@ -31,7 +33,6 @@ const thanksYouCard = () => {
   </p>
 </div>
   `;
-  console.log(rate);
 };
 
 document

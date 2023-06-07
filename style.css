@@ -33,15 +33,14 @@ body {
 
 .container__card {
   background: linear-gradient(170deg, #212931, #171e28);
-  border-radius: 20px;
+  border-radius: 30px;
   height: 360px;
   width: 340px;
-  padding: 20px;
+  padding: 25px;
 }
 
 .container__card-start {
   background-color: #263038;
-  /* background-color: var(--Dark_Blue); */
   border-radius: 50%;
   display: inline-flex;
   justify-content: center;
@@ -76,7 +75,7 @@ body {
   border-radius: 50%;
   background-color: var(--Dark_Blue);
   color: var(--Medium_Grey);
-  margin-right: 22px;
+  margin-right: 20px;
   height: 42px;
   width: 42px;
   font-size: 14px;
@@ -91,7 +90,7 @@ body {
   border: none;
   background-color: var(--Orange);
   color: var(--White);
-  margin-top: 30px;
+  margin-top: 25px;
   height: 40px;
   width: 100%;
   text-transform: uppercase;
@@ -167,6 +166,26 @@ body {
 
 @media screen and (min-width: 1440px) {
   .container__card {
-    width: 350px;
+    width: 375px;
+    height: 390px;
+    padding: 30px;
+  }
+
+  .container__card-title {
+    margin-top: 30px;
+  }
+
+  .container__card-description {
+    font-size: 14.6px;
+  }
+
+  .container__card-rate > button {
+    width: 45px;
+    height: 45px;
+    margin-top: 5px;
+  }
+  .container__card-submit > button {
+    height: 40px;
+    margin-top: 40px;
   }
 }
